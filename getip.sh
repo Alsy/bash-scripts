@@ -16,7 +16,7 @@
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 	echo "**************************************"
-	echo " GET IP"
+	echo " -- GET IP -- "
 	echo " By aesptux"
 	echo " http://mortuux.wordpress.com"
 	echo "**************************************"
