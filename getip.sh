@@ -1,5 +1,5 @@
 #/bin/bash
-#    Get ip from domains.
+#    Get ip from given domains or from a GReader .opml .
 #    Copyright (C) <2011>  <Adrian Espinosa>
 #
 #    This program is free software: you can redistribute it and/or modify
