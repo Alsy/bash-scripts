@@ -15,6 +15,7 @@
 #    You should have received a copy of the GNU General Public License
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+#    If you don't want to write every password, you should add the hosts keys to your machine.
 clear
 f=`echo networkscanned_$(date +%Y%m%d)`
 me=`echo $(whoami)`
