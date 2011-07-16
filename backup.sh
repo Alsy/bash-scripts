@@ -54,7 +54,7 @@ else
 		$RSYNC /var /media/$ID1/$PATH1 --exclude "/var/cache/*" 2>> $LOGPATH$LOGFILE
 		$RSYNC /home /media/$ID1/$PATH1 --exclude "/home/mortuus/Downloads/*" --exclude "/home/mortuus/Videos/*" --exclude "/home/mortuus/.VirtualBox/HardDisks/*" --exclude "/home/mortuus/.local/share/Trash/*" --exclude "/home/mortuus/.cache/*" --exclude "/home/mortuus/.thumbnails/*" --exclude "/home/mortuus/Dropbox" 2>> $LOGPATH$LOGFILE
 		###### MYSQL DATABASES DUMP
-		mysqldump --all-databases -u root -p123456789a > /media/$ID1/$PATH1/$NOW.mysqldump.sql 2>> $LOGPATH$LOGFILE
+		mysqldump --all-databases -u root -pyourpass > /media/$ID1/$PATH1/$NOW.mysqldump.sql 2>> $LOGPATH$LOGFILE
 		umount $DEV1
 		$INFOMSG "Backup finished"
 	else
